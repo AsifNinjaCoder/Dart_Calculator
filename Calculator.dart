@@ -65,7 +65,7 @@ class Calculator {
       }
       return ans;
     } catch (ZeroDenometerException) {
-      print("Dominator Should Not be Zero");
+      print("Denominator Should Not be Zero");
       print("Enter the Dominator");
       int k = int.parse(stdin.readLineSync()!);
       b = k;
