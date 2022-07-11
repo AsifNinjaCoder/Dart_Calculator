@@ -1,0 +1,3 @@
+class ZeroDenometerException implements Exception{
+  
+}
